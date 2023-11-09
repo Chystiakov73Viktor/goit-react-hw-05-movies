@@ -24,7 +24,6 @@ const Cast = () => {
     };
     fetchQuery();
   }, [movieId]);
-  console.log('movies', movies);
 
   return (
     <>
