@@ -10,8 +10,6 @@ const Movies = () => {
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
 
-  console.log('location', location);
-
   const movieId = searchParams.get('movieId') ?? '';
 
   const updateQueryString = value => {
